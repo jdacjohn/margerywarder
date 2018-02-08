@@ -1,0 +1,196 @@
+/*   
+Theme Name: MKWarder
+Description: A Child Theme of twentyfourteen
+Template: TwentyFourteen
+*/
+@import url(../twentyfourteen/style.css);
+
+html {width:100%}
+
+body {
+	background: #000000;
+}
+.site-title {
+	float: left;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 48px;
+	margin: 0;
+	font-style:italic;
+}
+.site-title a,
+.site-title a:hover {
+	color: #00FF00;
+}
+
+
+.search-box-wrapper {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:    border-box;
+	box-sizing:         border-box;
+	position: absolute;
+	top: 10px;
+	right: 0;
+	width: 800px;
+	z-index: 2;
+	margin-right: 50px;
+}
+
+
+.search-box {
+	background:transparent;
+	padding: 12px;
+	
+}
+
+.search-toggle {
+	background-color: #24890d;
+	cursor: pointer;
+	float: right;
+	height: 48px;
+	margin-top: 10px;
+	text-align: center;
+	width: 48px;
+}
+
+.widget-title h1, ul { display:block }
+
+/* Styles I had to copy to the local css because the site css was crashing the blog when it was imported */
+.p0 {margin-bottom:0px;}
+.p2 {margin-bottom:15px;}
+
+.fp {
+	margin-bottom:0px;
+}
+
+.wrapper {
+	width:100%; 
+	overflow:hidden;
+}
+
+.wrapper h2 {
+	line-height: 1.2em;
+	font-size: 40px;
+	margin-top: 48px;
+	padding-left: 30px;
+	font-weight:300;
+	background:url(./images/pic-1.gif) 0 0 repeat-y;
+	overflow:hidden;
+	color: #ffffff;
+}
+
+.wrapper h1 {
+	margin: 10px 30px 12px 30px;
+}
+
+
+/***** menu *****/
+.menu-row {
+	width:100%;
+	background:url(./images/menu-row.gif) center top repeat-x #000;
+	border-bottom:1px solid #2b2b2b;
+}
+.menu {
+	padding:28px 10px 26px 0; 
+/*	float:right; */
+	float:left;
+}
+.menu li {
+	float:left; 
+	position:relative;
+/*	padding-left:44px; */
+	padding-right: 44px;
+}
+.menu li a {
+	display:inline-block; 
+	font-size:13px; 
+	line-height:2em;
+	color:#808080; 
+	text-transform:uppercase;
+	text-decoration:none;
+}
+.menu li a.active,
+.menu > li > a:hover {color:#fff;}
+
+/* header */
+.header-block {
+/*	float:right; */
+	float:left;
+}
+.header-block li {
+	float:left; 
+	position:relative;
+}
+.header-block li a {
+	display:inline-block; 
+	color:#ffffff; 
+	text-decoration:none;
+}
+.header-block > li > a:hover {color:#fff;}
+
+.row-bot {
+	width:100%;
+	background:url(./images/row-bot-tail.gif) center top repeat;
+	overflow:hidden;
+}
+.row-bot-bg {
+	width:100%;
+	padding:10px 0 5px;
+	background:url(./images/row-bot-bg.jpg) center top no-repeat;
+}
+
+/********** Foot Stuff from Website **********/
+.main {	
+	font-size:13px;
+	line-height:24px;
+}
+
+.body4 { background:url(./images/bg.jpg) top center repeat }
+
+h4 {
+	font-size:26px;
+	line-height:1.2em;
+	color:#fff;
+	font-weight:400;
+	padding:0 0 10px 0
+}
+
+.address{background:url(./images/line_hor1.png) 0px 0 repeat-x;padding-top:1px}
+.address li{ 
+	background:url(./images/line_hor1.png) 0px bottom repeat-x; 
+	line-height:29px; 
+	font-style:normal; 
+	color: #808080; 
+	list-style-type:none;
+}
+.address span{padding-left:4px;float:left;width:62px}
+.address a {color:#808080; text-decoration:none}
+.address a:hover { color: #fff; }
+
+#icons{background:url(./images/line_hor1.png) 23px 0 no-repeat;padding-top:1px}
+#icons li{background:url(./images/line_hor1.png) 23px bottom no-repeat;line-height:29px; list-style-type:none;}
+#icons a{color:#808080;text-decoration:none;font-style:normal;display:inline-block}
+#icons img{float:left;margin-right:9px;margin-top:5px}
+#icons a:hover{color:#fff}
+
+#speak{background:url(./images/line_hor1.png) 23px 0 repeat-x;padding-top:1px}
+#speak li{background:url(./images/line_hor1.png) 23px bottom repeat-x;line-height:29px; list-style-type:none;}
+#speak a{color:#808080;text-decoration:none;font-style:normal;display:inline-block}
+#speak img{float:left;margin-right:9px;margin-top:5px}
+#speak a:hover{color:#fff}
+
+#ws-footer {
+	background-color:#ffffff;
+	padding: 8px 15px;
+	line-height:20px;
+	font-size:13px;
+	color:#030303;
+}
+
+#ws-footer a { 
+	color: #030303;
+	text-decoration: underline;
+}
+#ws-footer a:hover {
+	color: #68ab0b;
+}
